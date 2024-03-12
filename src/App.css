@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.yellow-part {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.letter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: yellow;
+}
+
+.a {
+  z-index: 2;
+}
+
+.u {
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}

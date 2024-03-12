@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.next-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+}
+
+.nex-p1 {
+  display: flex;
+  width: 50%;
+  text-align: left;
+  color: rgba(39, 93, 56, 1);
+  font-size: calc(1.575rem + 3.9vw);
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-family: Roboto;
+}
+
+.nex-p2 {
+  display: flex;
+  width: 100%;
+  padding-left: 40%;
+  text-align: left;
+  font-size: calc(1.29375rem + 0.525vw) !important;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-style: roboto;
+}
+
+.next-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 950px;
+}
+
+.next-a {
+  display: flex;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 20px;
+  background-color: #f2cd00;
+}
+.next-b {
+  display: flex;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../../../public/images/unih.jpg);
+}
+.next-c {
+  display: flex;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../../public/images/unii.jpg);
+}
+.next-d {
+  display: flex;
+  width: 50%;
+  text-align: left;
+  padding-top: 20px;
+  background-color: #e9ecef;
+}
+.next-e {
+  display: flex;
+  width: 50%;
+  text-align: left;
+  padding-top: 20px;
+  background-color: #6bbbae;
+}
+
+.next-f {
+  display: flex;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  background-image: url(../../../../public/images/unij.jpg);
+}
+.na-a {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  width: 50%;
+  gap: 45px;
+}
+
+.nex-p3 {
+  font-size: clamp(1.6rem, 1.75vw, 1.5rem);
+  line-height: clamp(0.7rem, 0.75vw, 1.5rem);
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nex-p4 {
+  line-break: loose;
+  font-size: 1.2rem;
+  word-spacing: 2px;
+  font-weight: 400;
+}
